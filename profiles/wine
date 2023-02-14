@@ -1,0 +1,1 @@
+--ro-bind / / --tmpfs /tmp --tmpfs ~ --unshare-pid --proc /proc --dev /dev --bind ~/.wine ~/.wine
