@@ -1,0 +1,1 @@
+--unshare-all --share-net --uid 0 --gid 0 --die-with-parent --as-pid-1 --ro-bind / / --bind . /root --clearenv --setenv HOME /root --setenv PATH /usr/bin/ --chdir /root --tmpfs /tmp --dev /dev --proc /proc --tmpfs /home --tmpfs /sys --tmpfs /media --tmpfs /mnt --tmpfs /run
