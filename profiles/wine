@@ -1,1 +1,1 @@
---ro-bind / / --tmpfs /tmp --tmpfs ~ --unshare-pid --proc /proc --dev /dev --bind ~/.wine ~/.wine --die-with-parent --new-session
+--ro-bind / / --tmpfs /tmp --tmpfs /home --unshare-pid --proc /proc --dev /dev --bind ~/.wine ~/.wine --die-with-parent --new-session
